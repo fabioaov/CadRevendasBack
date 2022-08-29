@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("C:/Users/fabio/Documents/Projetos/CadRevendasBack") {
-                sh 'mvn -B -DskipTests clean package'
+                bat 'mvn -B -DskipTests clean package'
                 }
             }
         }
