@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("C:/Program Files/Jenkins/workspace/PIPELINE/CadRevendasBack") {
+                dir("C:/Users/fabio/Documents/Projetos/CadRevendasBack") {
                 sh 'mvn -B -DskipTests clean package'
                 }
             }
